@@ -93,27 +93,35 @@
 					<img src="http://placehold.it/400x200">
 					<h4>Olivera Note</h4>
 					<small>Fashion</small>
-				</article>
+				</article>	
+			</li>
+			<li>		
 				<article>
 					<img src="http://placehold.it/400x200">
 					<h4>Shift Magazine</h4>
 					<small>Photography</small>
 				</article>
+			</li>
+			<li>
 				<article>
 					<img src="http://placehold.it/400x200">
 					<h4>Camp Pine Tree</h4>
 					<small>Web Design</small>
 				</article>
+			</li>
+			<li>
 				<article>
 					<img src="http://placehold.it/400x200">
 					<h4>Freeart App Design</h4>
 					<small>Photography</small>
 				</article>
+			</li>
 				<article>
 					<img src="http://placehold.it/400x200">
 					<h4>Large Poster Set</h4>
 					<small>Marketing</small>
 				</article>
+			<li>
 				<article>
 					<img src="http://placehold.it/400x200">
 					<h4>Skilet Album Cover</h4>
@@ -126,10 +134,12 @@
 		<h2>AMAZING HUGE FEATURES LIST</h2>
 		<h4>Absolutely Stunning Design and Functionality</h4>
 		<div>
-			<article>
-				<h2>Cloud Website</h2>
-				<img src="http://placehold.it/50x50">
-				<small>Class aptent taciti sociosqu ad litora torquent conubia nostra, per inceptos himenaoes</small>
+			<li>
+				<article>
+					<h2>Cloud Website</h2>
+					<img src="http://placehold.it/50x50">
+					<small>Class aptent taciti sociosqu ad litora torquent conubia nostra, per inceptos himenaoes</small>
+			</li>		
 			</article>
 			<article>
 				<h2>Modern Design</h2>
@@ -172,6 +182,96 @@
 				<small>Class aptent taciti sociosqu ad litora torquent conubia nostra, per inceptos himenaoes</small>
 			</article>	
 		</div>
+	</section>
+	<section>
+		<table>
+			<tr>
+				<td>Países</td>
+				<td>Bronce</td>
+				<td>Plata</td>
+				<td>Oro</td>
+			</tr>
+			<tr>
+				<td>Argentina</td>
+				<td>5</td>
+				<td>6</td>
+				<td>30</td>
+			</tr>
+			<tr>
+				<td>Brasil</td>
+				<td>10</td>
+				<td>8</td>
+				<td>20</td>
+			</tr>
+			<tr>
+				<td>Uruguay</td>
+				<td>5</td>
+				<td>6</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<td>Chile</td>
+				<td>2</td>
+				<td>1</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Venezuela</td>
+				<td>5</td>
+				<td>0</td>
+				<td>1</td>
+			</tr>
+		</table>
+	</section>
+<hr>
+	<section>
+		<form method="POST" action="enviar.php">
+			<label for="nombre">Nombre</label>
+			<input name="nombre" placeholder="Ingresá nombre" type="text" required>
+			<br/>
+
+			<label for="correo">Email</label>
+			<input name="correo" placeholder="Ingresá Correo" type="email" required>
+			<br/>
+
+			<label for="password">Contraseña</label>
+			<input name="password" placeholder="Ingresá contraseña" type="password" required>			
+			<br/>
+			
+			<label for="Telefono">Teléfono</label>
+			<input type="tel" name="Telefono" placehold="Ingresa Teléfono">
+			<br/>
+
+			<label for="edad">Edad </label>
+			<input type="number" placehold="Ingresa Edad" name="edad">
+			<br/>
+
+			<label for="mensaje">Mensaje</label>
+			<textarea name="mensaje" placeholder="Mensaje"></textarea>
+			<br/>
+
+			<label for="destino">Destino</label>
+			<select name="destino">
+				<option value="">Seleccionar Destino</option>
+				<option value="CABA">Ciudad Autónoma de Buenos Aires</option>
+				<option value="BA">Buenos Aires</option>
+				<option value="ER"> Entre Rios</option>
+				<option value="SF">Santa Fe</option>
+			</select>
+			<br/>
+
+			<input type="radio" name="entrega" value="Delivery" checked="checked"/><span>Delivery</span>	
+			<input type="radio" name="entrega" value="Local"><span>Retira por el local</span>
+			<br/>
+
+			<label for="cv">Curriculum</label>
+			<inputtype="file" name="cv">
+			<br/>
+
+			<input type="submit" value="Enviar Formulario">
+			<br/>
+			
+		</form>
 	</section>
 </body>
 </html>
